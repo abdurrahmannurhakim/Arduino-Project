@@ -1,0 +1,166 @@
+/*
+============================================================================
+ Name        : Style.css
+ Author      : Abdurrahman Nurhakim
+ Version     : 1.0
+ Copyright   : Your copyright notice
+ Description : For Style only
+============================================================================
+*/
+.dialog {
+	width: 100%;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 6px 0 rgba(0, 0, 0, 0.1);
+}
+.dialog1 {
+	width: 100%;
+	border-radius: 4px;
+	margin-bottom: 20px;
+    box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 6px 0 rgba(0, 0, 0, 0.1);
+}
+.dialog2 {
+	width: 100%;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 6px 0 rgba(0, 0, 0, 0.1);
+}
+.dialog3 {
+	width: 100%;
+	border-radius: 4px;
+	margin-bottom: 20px;
+	box-shadow: 0 1px 6px 0 rgba(0, 0, 0, 0.1), 0 1px 6px 0 rgba(0, 0, 0, 0.1);
+}
+
+
+.dialog > .content {
+	padding: 30px 0;
+	border-radius: 6px 6px 0 0;
+	font-size: 64px;
+	color: rgba(255,255,255, 0.84);
+	text-align: center;
+}
+.dialog1 > .content1 {
+
+	padding: 30px 0;
+	border-radius: 6px 6px 0 0;
+	font-size: 64px;
+	color: rgba(255,255,255, 0.84);
+	text-align: center;
+}
+
+.dialog2 > .content2
+ {
+	padding: 30px 0;
+	border-radius: 6px 6px 0 0;
+	font-size: 64px;
+	color: rgba(255,255,255, 0.84);
+	text-align: center;
+}
+
+.dialog3 > .content3
+ {
+	padding: 30px 0;
+	border-radius: 6px 6px 0 0;
+	font-size: 64px;
+	color: rgba(255,255,255, 0.84);
+	text-align: center;
+}
+
+.dialog4 > .content4
+ {
+	padding: 30px 0;
+	border-radius: 6px 6px 0 0;
+	font-size: 64px;
+	color: rgba(255,255,255, 0.84);
+	text-align: center;
+}
+
+
+.dialog.primary > .content{
+	background: #00aa9a;
+}
+.dialog1.primary > .content1{
+	background: #03a9f4;
+}
+.dialog2.primary > .content2{
+	background: #eafa04;
+}
+.dialog3.primary > .content3{
+	background: #9bf0fc;
+}
+
+.dialog.info > .content {
+	background: #00aa9a;
+}
+.dialog1.info > .content1 {
+	background: #03a9f4;
+}
+.dialog2.info > .content2 {
+	background: #eafa04;
+}
+.dialog3.info > .content3 {
+	background: #9bf0fc;
+}
+
+.dialog > .title {
+	background: #FFF;
+	border-radius: 0 0 6px 6px;
+	font-size: 22px;
+	color: rgba(0,0,0, 0.87);
+	text-align: center;
+	padding: 10px 0;
+	font-weight: bold;
+}
+
+.dialog1 > .title1 {
+	background: #FFF;
+	border-radius: 0 0 6px 6px;
+	font-size: 22px;
+	color: rgba(0,0,0, 0.87);
+	text-align: center;
+	padding: 10px 0;
+	font-weight: bold;
+}
+
+.dialog2 > .title2 {
+	background: #FFF;
+	border-radius: 0 0 6px 6px;
+	font-size: 22px;
+	color: rgba(0,0,0, 0.87);
+	text-align: center;
+	padding: 10px 0;
+	font-weight: bold;
+}
+
+.dialog3 > .title3 {
+	background: #FFF;
+	border-radius: 0 0 6px 6px;
+	font-size: 22px;
+	color: rgba(0,0,0, 0.87);
+	text-align: center;
+	padding: 10px 0;
+	font-weight: bold;
+}
+
+.dialog4 > .title4 {
+	background: #FFF;
+	border-radius: 0 0 6px 6px;
+	font-size: 22px;
+	color: rgba(0,0,0, 0.87);
+	text-align: center;
+	padding: 10px 0;
+	font-weight: bold;
+}
+
+.nav-tabs {
+	margin-bottom: 20px;
+}
+
+.submitStyle{
+position: relative;
+}
+
+.col-sm-8{
+position: relative;
+}

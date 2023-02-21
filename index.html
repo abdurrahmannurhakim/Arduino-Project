@@ -1,0 +1,69 @@
+<!----
+============================================================================
+ Name        : index.html
+ Author      : Abdurrahman Nurhakim
+ Version     : 1.0
+ Copyright   : Your copyright notice
+ Description : Simple HTML Code for showing the fuel data
+============================================================================
+--->
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Temperature &amp; SLT Wifi Trial </title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+<script type = "text/javascript" src="Script.js"></script>
+<script type="3f9e542a791917e118dc8b60-text/javascript" src="jquery.min.js"></script>
+<script type="3f9e542a791917e118dc8b60-text/javascript" src="jquery-ui.min.js"></script>
+<link rel="stylesheet" href="Style.css">
+</head>
+
+<body>
+  <div class="container">
+  <center><h1 style="font-family: Helvetica;color: #113e63;">Trial Wifi Communication for SLT</h1></center>
+</div>
+
+<div class="tab-content">
+ <div role="tabpanel" class="tab-pane active" id="overview">
+    <div class="row">
+      
+      <div class="dialog primary">
+        <div class="content"> <span id="temp">%TEMP%</span> <sup class="units">&deg;C</sup></div>
+          <div class="title" style="color: #113e63;" >Data1</div>
+           <div class="col-sm-12">
+             <div class="dialog1 info"></div>
+           </div>  
+
+      <div class="dialog1 primary">
+        <div class="content1"> <span id="humidity">%HUMIDITY%</span>&percnt;<sup class="units"></sup></div>
+          <div class="title1" style="color: #113e63;" >Data2</div>
+           <div class="col-sm-12">
+             <div class="dialog2 info"></div>
+           </div> 
+
+      <div class="dialog2 primary">
+        <div class="content2"> <span id="voltage">%VOLTAGE%</span>&percnt;<sup class="units"></sup></div>
+          <div class="title2" style="color: #113e63;" >Data3</div>
+           <div class="col-sm-12">
+             <div class="dialog3 info"></div>
+           </div> 
+
+      <div class="dialog3 primary">
+        <div class="content3"> <span id="fuel">%FUEL%</span>&percnt;<sup class="units"></sup></div>
+          <div class="title3" style="color: #113e63;" >Data4</div>
+           <div class="col-sm-12">
+             <div class="dialog4 info"></div>
+           </div> 
+
+      </div>             
+    </div>
+
+    <footer class="footer"></footer>
+    <div class="title2"style="color: #113e63;"></div>
+    <div role="tabpanel" class="tab-pane" id="history"> <div id="chartContainer" style="height: 300px; width: 100%;"></div></div>
+ </div>
+</div>
+</body>
+</html>
